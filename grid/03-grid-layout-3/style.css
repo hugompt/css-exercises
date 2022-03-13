@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .container {
@@ -61,6 +61,11 @@
 
 .sidebar {
   background-color: #FF7755;
+  display: grid;
+  grid-auto-rows: 10%;
+  grid-auto-columns: padding 50%;;
+  gap: 3%;
+  text-align: center;
 }
 
 .sidebar .photo {
@@ -71,7 +76,11 @@
   border-radius: 10px;
 }
 
-.photo  {
+.photo,
+.side-content{
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
 .sidebar .side-content {
